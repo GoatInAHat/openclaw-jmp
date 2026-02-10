@@ -4,7 +4,7 @@ CLI tool to send SMS via JMP.chat.
 
 Usage:
     python send_sms.py <phone_number> <message>
-    python send_sms.py +13238776364 "Hello from OpenClaw!"
+    python send_sms.py +15551234567 "Hello from OpenClaw!"
 """
 
 import argparse
@@ -21,7 +21,7 @@ from jmp_client import send_sms_simple, CREDENTIALS_PATH
 
 def main():
     parser = argparse.ArgumentParser(description='Send SMS via JMP.chat')
-    parser.add_argument('phone', help='Recipient phone number (e.g., +13238776364)')
+    parser.add_argument('phone', help='Recipient phone number (e.g., +15551234567)')
     parser.add_argument('message', help='Message text to send')
     parser.add_argument(
         '--credentials', '-c',

@@ -1,0 +1,14 @@
+{
+  "$schema": "blocked_numbers.schema.json",
+  "version": "1.0.0",
+  "description": "Blocked phone numbers - messages from these numbers are silently dropped",
+  "blocked": [
+    "+15550000000"
+  ],
+  "metadata": {
+    "+15550000000": {
+      "blocked_at": "2026-01-10T08:00:00Z",
+      "reason": "Spam/scam calls"
+    }
+  }
+}

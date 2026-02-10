@@ -1,3 +1,5 @@
-# JMP.chat SMS Skill Dependencies
-slixmpp>=1.13.0
-aiofiles>=23.0.0
+# JMP SMS API Schema Dependencies
+pydantic>=2.0
+
+# Testing dependencies
+pytest>=7.0

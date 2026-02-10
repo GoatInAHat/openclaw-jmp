@@ -1,0 +1,14 @@
+{
+  "$schema": "verified_owners.schema.json",
+  "version": "1.0.0",
+  "description": "Verified owner phone numbers that can access the main agent directly",
+  "owners": {
+    "+15551234567": {
+      "name": "Your Name",
+      "verified_at": "2026-01-01T00:00:00Z",
+      "verified_via": "discord:your_channel_id",
+      "carrier_at_verification": "T-Mobile",
+      "notes": "Primary owner - replace with your actual phone number"
+    }
+  }
+}

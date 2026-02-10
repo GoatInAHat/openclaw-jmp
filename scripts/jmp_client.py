@@ -34,11 +34,11 @@ def phone_to_jid(phone: str, gateway: str = 'cheogram.com') -> str:
     Convert a phone number to a Cheogram JID.
     
     Args:
-        phone: Phone number (e.g., "+13238776364" or "3238776364")
+        phone: Phone number (e.g., "+15551234567" or "5551234567")
         gateway: SMS gateway domain
         
     Returns:
-        JID string (e.g., "+13238776364@cheogram.com")
+        JID string (e.g., "+15551234567@cheogram.com")
     """
     # Clean the phone number
     phone = ''.join(c for c in phone if c.isdigit() or c == '+')
