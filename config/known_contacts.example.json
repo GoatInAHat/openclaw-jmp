@@ -1,0 +1,21 @@
+{
+  "$schema": "known_contacts.schema.json",
+  "version": "1.0.0",
+  "description": "Known contacts who have been verified but are not owners",
+  "contacts": {
+    "+15559876543": {
+      "phone": "+15559876543",
+      "name": "Jane Doe",
+      "approved_at": "2026-01-15T10:30:00Z",
+      "approved_by": "owner_manual",
+      "notes": "Colleague from work"
+    },
+    "+15551112222": {
+      "phone": "+15551112222",
+      "name": "John Smith",
+      "approved_at": "2026-01-20T14:00:00Z",
+      "approved_by": "verification_flow",
+      "notes": "Family member"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "rate_limits.schema.json",
+  "version": "1.0.0",
+  "description": "Rate limiting configuration for SMS channel",
+  
+  "_comment_per_number": "Limits applied per phone number",
+  "messages_per_minute": 10,
+  "messages_per_hour": 50,
+  "messages_per_day": 200,
+  "quarantine_requests_per_hour": 20,
+  "spoof_challenges_per_day": 5,
+  
+  "_comment_global": "Global limits across all numbers",
+  "unknown_numbers_per_hour": 100,
+  "global_messages_per_hour": 500,
+  "global_quarantine_calls_per_hour": 200,
+  
+  "_comment_tuning": "Adjust these based on your usage patterns. Lower values = more secure but may block legitimate users."
+}

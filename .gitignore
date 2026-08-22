@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Secrets and sensitive data - NEVER commit these
+.secrets/
+*.secret
+*.key
+.env
+.env.*
+
+# Personal data - contains phone numbers and names
+config/verified_owners.json
+config/known_contacts.json
+config/blocked_numbers.json
+config/daemon.json
+config/.pending_challenges.json
+config/.pending_verifications.json
+
+# Runtime data - logs and profiles
+data/
+logs/
+message_history.jsonl
+config/verification_audit.jsonl
+config/challenge_audit.jsonl
+
+# Keep only example configs in version control
+!config/*.example.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

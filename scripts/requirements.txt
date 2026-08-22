@@ -1,0 +1,7 @@
+# Runtime dependencies
+slixmpp>=1.8,<2
+pydantic>=2.0
+requests>=2.28
+
+# Testing dependencies
+pytest>=7.0
